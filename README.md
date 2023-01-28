@@ -1,24 +1,28 @@
-# my-movies
+# Moje Filmy
 
-## Project setup
-```
-npm install
-```
+## Spis treści
+* [Informacje o projekcie](#informacje-o-projekcie)
+* [Technologie](#technologie)
+* [Uruchomienie Projektu](#uruchomienie-projektu)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Informacje o projekcie 
+  Aplikacja webowa umożliwiająca dodawanie oraz usuwanie filmów do bazy danych.
+  Można również pobrać dane filmów z zewnętrznej bazy danych oraz edytować dane filmu.
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Technologie
+  * vue 3.2.13
+  * axios 1.2.4
+  * vuelidate/validators 2.0.0
+  * vuelidate/core 2.0.0
+  
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Uruchomienie Projektu
+  1. Instalacja zależności
+  ```
+  npm install
+  ```
+  2. Uruchomienie projektu
+  ```
+  npm run serve
+  ```
