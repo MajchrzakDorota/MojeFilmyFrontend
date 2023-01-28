@@ -1,5 +1,5 @@
 <template>
-  <dialog open>
+  <dialog open class="fixed-top mt-5">
     <div>
       <h2>Czy na pewno chcesz usunąć film?</h2>
       <section>
@@ -19,8 +19,8 @@ export default {
       this.$emit('delete-confirmation', this.id);
     },
     closeDeleteDialog() {
-        this.toggleDeleteDialog();
-    }
+      this.toggleDeleteDialog();
+    },
   },
 };
 </script>
